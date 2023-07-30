@@ -1,0 +1,40 @@
+#restartGame {
+    margin-top: 5%;
+    border: 2px solid black;
+    width: 35%;
+    height: 20%;
+    background-color: #ffd36199;
+    border-radius: 5px;
+}
+
+#restartGame>div {
+    display: flex;
+    justify-content: center;
+    font-family: 'Tourney', cursive;
+    font-size: 180%;
+}
+
+#reloadDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#btnReload {
+    font-size: 80%;
+    font-family: 'Tourney', cursive;
+    width: 45%;
+    height: 20%;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+#btnReload:hover {
+background-color: #f8c676;
+}
+
+@media screen and (max-width: 375px) and (max-height: 667px) {
+    #restartGame{
+        width: 82%;
+    }
+}
